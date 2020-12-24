@@ -1,0 +1,11 @@
+LOCAL_PATH := $(my-dir)
+
+include $(CLEAR_VARS)
+
+LOCAL_MODULE := FOSSBrowser
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := de.baumann.browser.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_CERTIFICATE := PRESIGNED
+
+include $(BUILD_PREBUILT)
